@@ -1,5 +1,8 @@
 .lead__image{
-    width: 984px;
-    margin: 0 auto;
+    max-width:984px ; 
+    min-height: 615px;
     display: block;
+    background-image: url(../../../images/lead-mountains.jpg);
+    background-size: cover;
+    margin: 0 auto;
 }
