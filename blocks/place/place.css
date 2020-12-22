@@ -6,66 +6,64 @@
 @import url(./__paragraphs/place__paragraphs.css);
 @import url(./__paragraph/place__paragraph.css);
 
-.place{
+.place {
     max-width: 984px;
     margin: 0 auto 80px auto;
     display: grid;
-    grid-template-columns: 460px 484px;  
+    grid-template-columns: 460px 484px;
     column-gap: 40px;
     row-gap: 48px;
 }
 
-@media screen and (max-width:1140px){
-    .place{
+@media screen and (max-width: 1140px) {
+    .place {
         max-width: 928px;
         margin: 0 auto 80px auto;
         display: grid;
-        grid-template-columns: 440px 456px;  
+        grid-template-columns: 440px 456px;
         column-gap: 32px;
         row-gap: 48px;
-    } 
-
+    }
 }
 
-@media screen and (max-width: 958px){
-    .place{
+@media screen and (max-width: 958px) {
+    .place {
         max-width: 740px;
         margin: 0 3.1% 80px 3.1%;
         display: grid;
-        grid-template-columns: 340px 352px;  
+        grid-template-columns: 340px 352px;
         column-gap: 28px;
         row-gap: 48px;
     }
-    .place__paragraph{
+    .place__paragraph {
         font-size: 16px;
     }
-    .place__title{
+    .place__title {
         font-size: 42px;
         line-height: 46px;
-    } 
+    }
 }
 
-@media screen and (max-width: 425px){
-    .place{
+@media screen and (max-width: 425px) {
+    .place {
         display: grid;
         grid-template-columns: 1fr;
         row-gap: 32px;
-        margin: 0 0 49px 0;     
+        margin: 0 0 49px 0;
     }
 
-    .place__website{
-        display: none;   
+    .place__website {
+        display: none;
     }
-    .place__paragraphs{
+    .place__paragraphs {
         width: 288px;
         font-size: 16px;
         margin: 0 auto;
     }
-    .place__title{
+    .place__title {
         max-width: 90%;
         margin-left: 5%;
         font-size: 32px;
         line-height: 35px;
     }
-
 }

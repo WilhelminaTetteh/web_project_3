@@ -2,57 +2,51 @@
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
 
-
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     padding: 92px 0 24px 0;
 }
-@media screen and (max-width:1140px){
-   
-    .footer{
+@media screen and (max-width: 1140px) {
+    .footer {
         max-width: 90.63%;
         margin: 0 auto;
     }
 }
 
-@media screen and (max-width: 958px){
-    .footer{
+@media screen and (max-width: 958px) {
+    .footer {
         max-width: 93.75%;
         margin: 0 auto;
     }
 }
 
-@media screen and (max-width: 425px){
-    .footer{
+@media screen and (max-width: 425px) {
+    .footer {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
-        padding: 64px 0 24px 1
-        6px;
+        padding: 64px 0 24px 1 6px;
     }
 
-
-    .footer__links{
+    .footer__links {
         display: flex;
         flex-direction: column;
         padding: 0;
         margin: 0;
     }
-    .footer__link{
+    .footer__link {
         font-size: 24px;
-        line-height: 24px; 
-        margin:0 0 32px 0;
-
+        line-height: 24px;
+        margin: 0 0 32px 0;
     }
-    .footer__link:nth-last-child(1){
+    .footer__link:nth-last-child(1) {
         margin-bottom: 48px;
     }
-   
-    .footer__copyright{
+
+    .footer__copyright {
         font-size: 14px;
         line-height: 14px;
     }
-
 }
