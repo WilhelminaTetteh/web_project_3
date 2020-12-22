@@ -1,0 +1,36 @@
+@import url(./__lang-links/header__lang-links.css);
+@import url(./__lang-link/header__lang-link.css);
+
+.header{
+    max-width: 83.1%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 34px ;
+}
+
+
+@media screen and (max-width:1140px){
+    .header{
+        max-width: 90.63%;
+    }
+
+}
+
+@media screen and (max-width: 958px){
+    .header{
+        max-width: 93.75%;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    .header{
+        max-width: 90%;
+    }
+    .header__lang-link{
+        font-size: 18px;
+    }
+
+}

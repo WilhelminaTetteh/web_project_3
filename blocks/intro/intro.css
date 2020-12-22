@@ -1,0 +1,79 @@
+@import url(./__container/intro__container.css);
+@import url(./__title/intro__title.css);
+@import url(./__text/intro__text.css);
+@import url(./__texts/intro__texts.css);
+@import url(./__list/intro__list.css);
+@import url(./__list-item/intro__list-item.css);
+@import url(./__list-span/intro__list-span.css);
+
+.intro{
+    padding-top: 92px;
+    color: #fff;
+    max-width: 83.1%;
+    margin: auto;   
+}
+
+@media screen and (max-width:1140px){
+    .intro{
+        max-width: 90.63%;
+        margin: auto; 
+    }
+    
+    .intro__title{
+        font-size: 54px;
+        line-height: 58px;   
+    }
+
+}
+
+@media screen and (max-width: 958px){
+    .intro{
+        max-width: 93.75%;
+        margin: auto;   
+    }
+    .intro__title{
+        width: 720px;
+    }
+
+   
+    .intro__text:nth-child(3){
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 425px){
+   
+    .intro{
+    
+        max-width: 90%;
+        margin:0 auto;
+        
+    }
+    .intro__title{
+        font-size: 32px;
+        line-height: 35px;
+        width: 288px;
+    }
+    .intro__text{
+        width: 288px;
+
+    }
+
+   
+    .intro__text:nth-child(1){
+        width: 288px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+   
+    .intro__text:nth-child(2){
+        width: 288px;
+        font-size: 16px;
+        line-height: 163%;
+    }
+    .intro__text:nth-child(3){
+        font-size: 12px;
+        line-height: 18px;
+    }
+} 
