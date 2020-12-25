@@ -6,9 +6,3 @@
         width: 100%;
     }
 }
-
-@media screen and (max-width: 425px){
-    .intro__container{
-        width: 100%;
-    }
-} 

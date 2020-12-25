@@ -2,13 +2,21 @@
 
 **Description**
 
-This is a project about traveling across the US.Elements are displayed on popular screen sizes:
+This is a project about traveling across the US.It highlights various states,between Portland and Portland and all the cool places to see and cool things to do.
+
+**Technologies**
+
+This project is built with purely HTML and CSS.
+HTML- was used to define the layout and structure of the website.
+CSS- used in styling.
+
+It uses features like the CSS grid for positioning and Normalize CSS tool to render elements more consistently.
+
+Elements are displayed on popular screen sizes:
 *320px
 *768px
 *1024px
 *1280px
-
-This project is built with purely HTML and CSS. It uses features like the CSS grid for positioning and Normalize CSS tool to render elements more consistently.
 
 **Link to project**
 
