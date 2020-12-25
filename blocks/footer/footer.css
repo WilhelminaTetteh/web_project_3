@@ -18,7 +18,7 @@
 @media screen and (max-width: 958px) {
     .footer {
         max-width: 93.75%;
-        margin: 0 auto;
+       
     }
 }
 
@@ -28,25 +28,5 @@
         align-items: flex-start;
         flex-direction: column;
         padding: 64px 0 24px 1 6px;
-    }
-
-    .footer__links {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        margin: 0;
-    }
-    .footer__link {
-        font-size: 24px;
-        line-height: 24px;
-        margin: 0 0 32px 0;
-    }
-    .footer__link:nth-last-child(1) {
-        margin-bottom: 48px;
-    }
-
-    .footer__copyright {
-        font-size: 14px;
-        line-height: 14px;
     }
 }

@@ -4,8 +4,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
-    text-decoration-line: underline;
     color: #FFFFFF;
     cursor: pointer;
  }
- 
+ .place__link:hover{
+    text-decoration: underline;
+ }
