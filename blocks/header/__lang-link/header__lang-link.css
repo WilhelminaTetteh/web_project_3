@@ -1,3 +1,4 @@
+@import url(./_active/header__lang-link_active.css);
 .header__lang-link{
     color: #fff;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -7,14 +8,15 @@
     line-height: 28px;
     width: 27px;
     height: 28px;
-    text-decoration: none;
+    display: inline;
+    list-style: none;
 }
 .header__lang-link:first-of-type{
     margin-right: 18px;
 }
-.header__lang-link:active{
+/* .header__lang-link:active{
     text-decoration: underline;
-}
+} */
 .header__lang-link:hover {
     text-decoration: underline;
 }
