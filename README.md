@@ -12,5 +12,4 @@ This is a project about traveling across the US.Elements are displayed correctly
 
 * [Link to the project on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
 
-**Images**
 
