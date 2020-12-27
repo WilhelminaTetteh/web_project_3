@@ -27,17 +27,17 @@
     .place {
         margin: 0 3.1% 80px 3.1%;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 340px 1fr;
         column-gap: 28px;
     }
 }
 
-@media screen and (max-width: 720px) {
+/* @media screen and (max-width: 720px) {
     .place {
         display: grid;
         grid-template-columns: 1fr;
     }
-}
+} */
 
 @media screen and (max-width: 425px) {
     .place {
